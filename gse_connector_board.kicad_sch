@@ -3430,7 +3430,7 @@
 		)
 		(uuid "ff51bcf1-3b1b-46f3-8013-114917bca2cd")
 	)
-	(global_label "CAN_ext_H"
+	(global_label "CAN_ext+"
 		(shape input)
 		(at 111.76 82.55 180)
 		(fields_autoplaced yes)
@@ -3442,7 +3442,7 @@
 		)
 		(uuid "0d221ccb-9f7b-4292-9c81-6118e423d118")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9776 82.55 0)
+			(at 99.7033 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3454,7 +3454,7 @@
 			)
 		)
 	)
-	(global_label "CAN_1_L"
+	(global_label "CAN_1-"
 		(shape input)
 		(at 135.89 53.34 0)
 		(fields_autoplaced yes)
@@ -3466,7 +3466,7 @@
 		)
 		(uuid "1d94a37e-140c-4793-95ad-adb5f0ede76a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.7371 53.34 0)
+			(at 146.3138 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,7 +3478,7 @@
 			)
 		)
 	)
-	(global_label "CAN_ext_H"
+	(global_label "CAN_ext+"
 		(shape input)
 		(at 50.8 45.72 180)
 		(fields_autoplaced yes)
@@ -3490,7 +3490,7 @@
 		)
 		(uuid "351a2ca9-82ec-481f-ad94-036f3fbfb321")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0176 45.72 0)
+			(at 38.7433 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3502,7 +3502,7 @@
 			)
 		)
 	)
-	(global_label "CAN_1_H"
+	(global_label "CAN_1+"
 		(shape input)
 		(at 162.56 44.45 0)
 		(fields_autoplaced yes)
@@ -3514,7 +3514,7 @@
 		)
 		(uuid "3b1655bb-8ea0-40b3-862d-5c605072970c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.7095 44.45 0)
+			(at 172.9838 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3598,7 +3598,7 @@
 			)
 		)
 	)
-	(global_label "CAN_ext_L"
+	(global_label "CAN_ext-"
 		(shape input)
 		(at 50.8 48.26 180)
 		(fields_autoplaced yes)
@@ -3610,7 +3610,7 @@
 		)
 		(uuid "5ccd910d-6edb-4967-9230-50b6bf4a135b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.32 48.26 0)
+			(at 38.7433 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3622,7 +3622,7 @@
 			)
 		)
 	)
-	(global_label "CAN_1_L"
+	(global_label "CAN_1-"
 		(shape input)
 		(at 162.56 57.15 0)
 		(fields_autoplaced yes)
@@ -3634,7 +3634,7 @@
 		)
 		(uuid "6de01bd9-c7aa-4bbc-9da6-5df776fbdc5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.4071 57.15 0)
+			(at 172.9838 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3646,7 @@
 			)
 		)
 	)
-	(global_label "CAN_ext_L"
+	(global_label "CAN_ext-"
 		(shape input)
 		(at 111.76 85.09 180)
 		(fields_autoplaced yes)
@@ -3658,7 +3658,7 @@
 		)
 		(uuid "755deb83-090b-4938-8814-834a09c7959e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.28 85.09 0)
+			(at 99.7033 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3790,7 @@
 			)
 		)
 	)
-	(global_label "CAN_1_H"
+	(global_label "CAN_1+"
 		(shape input)
 		(at 135.89 48.26 0)
 		(fields_autoplaced yes)
@@ -3802,7 +3802,7 @@
 		)
 		(uuid "ea15540f-23ae-475e-a8af-4209712cabdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.0395 48.26 0)
+			(at 146.3138 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con"
+		(property "Footprint" "custom_parts:4_pin_mag_con_new"
 			(at 172.72 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4880,7 +4880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con"
+		(property "Footprint" "custom_parts:4_pin_mag_con_new"
 			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7704,7 +7704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con"
+		(property "Footprint" "custom_parts:4_pin_mag_con_new"
 			(at 116.84 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7972,7 +7972,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd677adc-2c72-4766-b764-4bfbef9132e1")
 		(property "Reference" "#PWR052"
 			(at 76.2 34.29 0)
@@ -7985,15 +7984,15 @@
 				)
 			)
 		)
-		(property "Value" "GNDEXT"
-			(at 73.66 29.2099 0)
+		(property "Value" "GND_EXT"
+			(at 66.04 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
