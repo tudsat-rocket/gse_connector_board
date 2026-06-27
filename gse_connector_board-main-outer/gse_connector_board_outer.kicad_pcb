@@ -1007,6 +1007,7 @@
 		(property "Reference" "J5"
 			(at 7.975 7.47 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a8c0e511-97ae-4d13-b8d5-465cf931f3df")
 			(effects
 				(font
@@ -1383,6 +1384,7 @@
 		(property "Reference" "J7"
 			(at 1.5 10.12 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "20e88ba9-d806-45f0-a480-aff075998946")
 			(effects
 				(font
@@ -1759,6 +1761,7 @@
 		(property "Reference" "J6"
 			(at 1.5 10.12 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "8d349ee6-7909-4423-b986-e2a0e9bf4341")
 			(effects
 				(font
@@ -2862,8 +2865,8 @@
 		(layer "Edge.Cuts")
 		(uuid "c5ce7fff-7642-4bfe-bd86-572d68bbdefc")
 	)
-	(gr_text "v_main\n"
-		(at 111 93.9 0)
+	(gr_text "Vmain\n"
+		(at 111.6 93.9 0)
 		(layer "F.SilkS")
 		(uuid "70a3d7ff-4c24-48f2-9125-dc2d25c1eea5")
 		(effects
@@ -2887,19 +2890,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 115.9 107.8 0)
-		(layer "F.SilkS")
-		(uuid "51c498b7-bf44-49bf-bdf5-372e75943918")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 121.2 94 0)
+		(at 121.3 94 0)
 		(layer "F.SilkS")
 		(uuid "5e5fb338-e65d-4d10-8188-7093b5b90d04")
 		(effects
@@ -2947,7 +2938,7 @@
 		)
 	)
 	(gr_text "CAN-"
-		(at 132.7 93.85 0)
+		(at 132.4 94 0)
 		(layer "F.SilkS")
 		(uuid "78c9739d-cfc3-448f-9238-aaab148cfb23")
 		(effects
@@ -2971,7 +2962,7 @@
 		)
 	)
 	(gr_text "Disarm\n"
-		(at 136.35 90.75 0)
+		(at 136.25 90.75 0)
 		(layer "F.SilkS")
 		(uuid "aa249d33-bca2-4d4a-9e7e-05fb64bab0d6")
 		(effects
@@ -2983,21 +2974,9 @@
 		)
 	)
 	(gr_text "Arm"
-		(at 138.7 93.85 0)
+		(at 138.6 93.85 0)
 		(layer "F.SilkS")
 		(uuid "2e4183ba-08c4-45c1-a897-f3d28cbc8173")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 158 89.1 0)
-		(layer "F.SilkS")
-		(uuid "539e97b7-79f4-4f91-9dc2-da3d72cd3d3e")
 		(effects
 			(font
 				(size 1 1)
@@ -3115,8 +3094,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "v_main\n"
-		(at 150.62 93.79 90)
+	(gr_text "Vmain\n"
+		(at 150.62 94.39 90)
 		(layer "B.SilkS")
 		(uuid "06472ce1-1351-4e89-83d2-5cc69b7d2154")
 		(effects
@@ -3177,28 +3156,28 @@
 		)
 	)
 	(segment
-		(start 128.55 90.45)
-		(end 129.75 91.65)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "+V_EXT")
-		(uuid "356dfd9e-0dc8-45c9-ba0d-0cc8748f4148")
-	)
-	(segment
-		(start 129.75 96.144238)
+		(start 130 96.394238)
 		(end 135.124744 101.518982)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+V_EXT")
-		(uuid "9fe0cc63-0189-4786-a252-0df0dd68944e")
+		(uuid "0229d6ee-3265-40c0-8a67-a6207f699add")
 	)
 	(segment
-		(start 129.75 91.65)
-		(end 129.75 96.144238)
+		(start 128.55 90.45)
+		(end 130 91.9)
 		(width 0.5)
 		(layer "F.Cu")
 		(net "+V_EXT")
-		(uuid "d6d82b20-f104-41d0-aac9-7b1f7e4ddf04")
+		(uuid "9a1cf82c-3f56-4b22-9e08-35dd440b14dd")
+	)
+	(segment
+		(start 130 91.9)
+		(end 130 96.394238)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+V_EXT")
+		(uuid "abd0abfe-36d0-47be-b8dd-91d86239d14c")
 	)
 	(segment
 		(start 137.424744 96.961141)
@@ -3438,7 +3417,7 @@
 		(uuid "9730574f-61fd-4441-979a-8666291dadae")
 		(hatch edge 0.5)
 		(priority 1)
-		(connect_pads
+		(connect_pads yes
 			(clearance 0)
 		)
 		(min_thickness 0.25)
