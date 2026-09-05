@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "J3"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "327265f2-2eb4-4b34-98db-876af6a27c8c")
+		(uuid "f6737d83-bbf5-4535-a6cd-e61ccdcbca28")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "4_pin_mag_con_new"
+	(property "Value" "chg_connector"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "87d2953e-3071-4a01-b8f9-d9a43ff10a58")
+		(uuid "905d5991-0653-4e5f-b619-adee5d478911")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "55fb9aed-8ee0-4525-9f8f-1e039a0f14cf")
+		(uuid "1017eff6-c42a-4405-9ed7-346486c31fb3")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "57a6e4ad-6843-4e97-bcdb-8eaa7e8717cc")
+		(uuid "980e79a3-3dcd-403f-8209-3ac4a814a6e8")
 		(effects
 			(font
 				(size 1 1)
@@ -53,24 +53,27 @@
 			)
 		)
 	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/")
+	(sheetfile "gse_connector_board.kicad_sch")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 -3)
 		(end 6.75 -3)
 		(stroke
-			(width 0.05)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "147412d5-ef92-4f15-ab40-b2b165871372")
+		(uuid "14eebd0e-e0a8-4248-9e54-a612ff4b9499")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "72de046c-2cdb-402f-91d8-6409ebca0824")
+		(uuid "ca227205-59dd-467b-9eb2-bb1e1336351b")
 		(effects
 			(font
 				(size 1 1)
@@ -79,36 +82,36 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -3.15 -3)
-		(size 1.3 4.54)
-		(drill oval 1.1 1.5)
+		(at -3.5 -3)
+		(size 1.2 4.54)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "25d32da5-3554-4325-9569-3f5f1b5a37d1")
+		(uuid "2b3bf739-ac49-4e1a-8b4a-8b0817e43e17")
 	)
 	(pad "2" thru_hole oval
-		(at -1.35 -3)
+		(at -1.5 -3)
 		(size 1.2 4.54)
-		(drill oval 1 1.5)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f1c17365-a362-4e1c-8c7f-a24d232ce815")
+		(uuid "5f2f3a91-3596-4617-b9b4-b425f2bf04d1")
 	)
 	(pad "3" thru_hole oval
 		(at 0 -3)
-		(size 1.1 4.54)
-		(drill 0.9)
+		(size 1.2 4.54)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3bc4e11a-0916-40a4-b968-8ef3e2b72681")
+		(uuid "72b5df9a-80af-4978-ba65-9e74acc54f98")
 	)
 	(pad "4" thru_hole oval
 		(at 2.5 -3)
-		(size 1.3 4.54)
-		(drill oval 1.1 1.5)
+		(size 1.2 4.54)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "56084ba5-84e0-448d-b266-44cbd76835b7")
+		(uuid "c791906e-044f-4a27-b437-ccf581f1f078")
 	)
 	(embedded_fonts no)
 )
