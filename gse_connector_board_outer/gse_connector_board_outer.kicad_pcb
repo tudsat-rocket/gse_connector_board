@@ -1363,15 +1363,15 @@
 			(uuid "3523076e-a264-4b09-bb9a-27a61816b96d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.step"
+		(model "C:/Users/Marco/Documents/RAPID-Git/pcbs/gse_connector_board/gse_connector_board_inner/3d-models/66200421022 (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 4 4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -0 -0)
 			)
 		)
 	)
@@ -1741,15 +1741,15 @@
 			(uuid "0ee9e0e7-81ba-4d87-a856-c13e3639118d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.step"
+		(model "C:/Users/Marco/Documents/RAPID-Git/pcbs/gse_connector_board/gse_connector_board_inner/3d-models/66200421022 (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 4 4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -0 -0)
 			)
 		)
 	)
@@ -2119,15 +2119,15 @@
 			(uuid "a2e4355a-bfa3-4057-b51f-786789524aee")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal.step"
+		(model "C:/Users/Marco/Documents/RAPID-Git/pcbs/gse_connector_board/gse_connector_board_inner/3d-models/66200421022 (rev1).stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 1.5 4 4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 90 -0 -0)
 			)
 		)
 	)
