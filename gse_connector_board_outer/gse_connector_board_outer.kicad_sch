@@ -1279,7 +1279,7 @@
 	)
 	(text "general can"
 		(exclude_from_sim no)
-		(at 210.566 109.474 0)
+		(at 198.882 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1403,17 +1403,17 @@
 	)
 	(global_label "+V_EXT"
 		(shape input)
-		(at 191.77 105.41 180)
+		(at 204.47 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "36687a0c-e91f-4ea8-a360-88d228c4d0d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.8301 105.41 0)
+			(at 214.4099 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1421,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -1571,17 +1571,17 @@
 	)
 	(global_label "GND_EXT"
 		(shape input)
-		(at 204.47 105.41 0)
+		(at 191.77 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ddac1b38-c82c-49ad-a605-8f6c91faf150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.6194 105.41 0)
+			(at 180.6206 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1589,7 +1589,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
