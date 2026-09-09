@@ -1523,17 +1523,17 @@
 	)
 	(global_label "disarm"
 		(shape input)
-		(at 113.03 107.95 180)
+		(at 125.73 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a495625d-46c3-4636-9ce4-a3041baa06ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.6344 107.95 0)
+			(at 135.1256 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1541,7 +1541,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -1595,17 +1595,17 @@
 	)
 	(global_label "arm"
 		(shape input)
-		(at 125.73 107.95 0)
+		(at 113.03 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e12f6048-abda-41ee-882b-5753ca4bb988")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.3437 107.95 0)
+			(at 106.4163 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1613,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
