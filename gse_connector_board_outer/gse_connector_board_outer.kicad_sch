@@ -1126,6 +1126,17 @@
 		)
 		(uuid "89386296-5c77-4119-a2b7-4ab4f8841977")
 	)
+	(text "GSE interface (no CAN isolation; termination is switched on the inner board)\nJ8 connects straight through to the magnetic J2. GND_rocket is the common CAN ground\n(tied to GND on the inner board). Terminate the GSE end of the bus with 120 Ohm.\n+V_EXT (J8.2 -> J2.1): supplied by the GSE whenever it is connected (12 V assumed, ~5 mA).\nIt opens the rocket-side termination; without it the bus has three terminations."
+		(exclude_from_sim no)
+		(at 96.52 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cf95db01-8b20-4fdd-abbe-f9b34c258c61")
+	)
 	(junction
 		(at 242.57 34.29)
 		(diameter 0)
@@ -1181,6 +1192,16 @@
 			(type default)
 		)
 		(uuid "8670d788-610a-4954-9297-1373995ff4b6")
+	)
+	(wire
+		(pts
+			(xy 118.11 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c877cd3a-4c59-4e43-8ae7-f3c8211c3b71")
 	)
 	(wire
 		(pts
@@ -1242,7 +1263,7 @@
 	)
 	(global_label "CAN_rocket_H"
 		(shape input)
-		(at 196.85 104.14 0)
+		(at 196.85 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1252,7 +1273,7 @@
 		)
 		(uuid "232e464a-f9f7-4b9c-b7a3-f4bbb2bcb7f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4509 104.14 0)
+			(at 209.4509 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1277,6 +1298,30 @@
 		(uuid "3ece2c7e-55dd-48cf-998d-dac1ae73a744")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.2463 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND_rocket"
+		(shape input)
+		(at 184.15 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46fe2bf0-6e15-47a7-8ed4-43a29e259a92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.244 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1410,7 +1455,7 @@
 	)
 	(global_label "CAN_rocket_L"
 		(shape input)
-		(at 196.85 106.68 0)
+		(at 196.85 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1420,7 +1465,7 @@
 		)
 		(uuid "d951e6ce-dcc4-48f9-a51a-c86fec37f8ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.1485 106.68 0)
+			(at 209.1485 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,6 +2509,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 104.14 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac564faa-238e-414a-b13a-a47c3ab8abeb")
+		(property "Reference" "#PWR072"
+			(at 104.14 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+V_EXT"
+			(at 104.14 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 104.14 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fee7b36b-287f-4c97-bb8f-af39430c8670")
+		)
+		(instances
+			(project "gse_connector_board_outer"
+				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 176.53 80.01 270)
@@ -2946,128 +3068,6 @@
 				)
 			)
 		)
-	)
-	(global_label "GND_rocket"
-		(shape input)
-		(at 184.15 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "46fe2bf0-6e15-47a7-8ed4-43a29e259a92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2440 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 104.14 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac564faa-238e-414a-b13a-a47c3ab8abeb")
-		(property "Reference" "#PWR072"
-			(at 104.14 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+V_EXT"
-			(at 104.14 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 104.14 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fee7b36b-287f-4c97-bb8f-af39430c8670")
-		)
-		(instances
-			(project "gse_connector_board_outer"
-				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(text "GSE interface (no CAN isolation; termination is switched on the inner board)\nJ8 connects straight through to the magnetic J2. GND_rocket is the common CAN ground\n(tied to GND on the inner board). Terminate the GSE end of the bus with 120 Ohm.\n+V_EXT (J8.2 -> J2.1): supplied by the GSE whenever it is connected (12 V assumed, ~5 mA).\nIt opens the rocket-side termination; without it the bus has three terminations."
-		(exclude_from_sim no)
-		(at 96.52 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "cf95db01-8b20-4fdd-abbe-f9b34c258c61")
-	)
-	(wire
-		(pts
-			(xy 118.11 80.01) (xy 104.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c877cd3a-4c59-4e43-8ae7-f3c8211c3b71")
 	)
 	(sheet_instances
 		(path "/"
