@@ -488,6 +488,270 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "custom_parts:ICS_CAN_Isolator"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ICS_CAN_Isolator"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/files/pdf1/ics-data-sheet-can-isolator-en.pdf"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Würth Elektronik ICS CAN Isolator: galvanically isolated ISO 11898-2 high-speed CAN repeater, 10-1000 kbit/s, 9-30 V supply on the bus 1 side (KL30/KL31), 120 Ohm termination per port by shorting LRx to Lx. 9-pin relay-shape module 30x30x40 mm; not PCB-mounted."
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CAN isolator repeater galvanic isolation"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICS_CAN_Isolator_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 10.16) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type dash)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ICS_CAN_Isolator_1_1"
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "LR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "KL30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "LR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_1"
 			(power global)
 			(pin_numbers
@@ -3209,6 +3473,479 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "custom_parts:ICS_CAN_Isolator")
+		(at 160.02 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "abd3aadf-2c27-4d23-a75b-3baad3845eaa")
+		(property "Reference" "U1"
+			(at 160.02 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICS_CAN_Isolator"
+			(at 160.02 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/files/pdf1/ics-data-sheet-can-isolator-en.pdf"
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Würth Elektronik ICS CAN Isolator: galvanically isolated ISO 11898-2 high-speed CAN repeater, 10-1000 kbit/s, 9-30 V supply on the bus 1 side (KL30/KL31), 120 Ohm termination per port by shorting LRx to Lx. 9-pin relay-shape module 30x30x40 mm; not PCB-mounted."
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik ICS"
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part#" "ICS-104984"
+			(at 160.02 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "792314bb-8528-4212-be77-363b82957888")
+		)
+		(pin "2"
+			(uuid "e02d51a5-4bf6-4108-b80f-d8d97ff691f2")
+		)
+		(pin "3"
+			(uuid "7a0013cd-936e-4d37-bd09-e12f88664f01")
+		)
+		(pin "4"
+			(uuid "0d0b9d7a-6db0-4fb9-b9b7-fd67a1e33c08")
+		)
+		(pin "5"
+			(uuid "6287311a-0abd-4a78-8d35-ff27f5aadf0e")
+		)
+		(pin "6"
+			(uuid "f9cd2499-8aa8-418a-998a-3fa518237bcd")
+		)
+		(pin "7"
+			(uuid "f85104d5-8756-4403-9283-8c69ffd2e856")
+		)
+		(pin "8"
+			(uuid "fc3fdafa-88b3-49c5-98c2-daaae66b6b16")
+		)
+		(pin "9"
+			(uuid "72ac4ab8-bd4c-4c6f-bf21-6ce6391d0231")
+		)
+		(instances
+			(project "gse_connector_board_outer"
+				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 198.12 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "a8de2a67-b6b6-4a1b-bf7b-4f455ca26ae3")
+		(property "Reference" "J8"
+			(at 199.39 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GSE_cable"
+			(at 199.39 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "GSE-side cable to the isolator bus 1 (not on this PCB): 1 = 9-30 V, 2 = CAN_H, 3 = CAN_L, 4 = GSE GND"
+			(at 198.12 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dac231c-3af4-428b-9e43-dbb74e8b5264")
+		)
+		(pin "2"
+			(uuid "349af0f7-79ed-4b8e-881c-96ee8808a07f")
+		)
+		(pin "3"
+			(uuid "650287e4-0c46-4704-83a0-f371b57d5364")
+		)
+		(pin "4"
+			(uuid "ed89eb5b-cd5f-4f0f-b729-85704628e502")
+		)
+		(instances
+			(project "gse_connector_board_outer"
+				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 27.94) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1fc5492-42f0-4576-ae4d-df057709ba1a")
+	)
+	(global_label "CAN_ext+"
+		(shape input)
+		(at 142.24 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34eec3a5-656b-415b-a602-5f8e1ef02db0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.8580 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 30.48) (xy 142.24 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49840a5d-f2e8-46a0-8166-d8438a6a99a2")
+	)
+	(global_label "CAN_ext-"
+		(shape input)
+		(at 142.24 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31e7ba04-f7a2-48fe-9976-963ef2c3a53e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.8580 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 147.32 38.1) (xy 142.24 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6fc2527-f256-47aa-90f2-d7bfd892517d")
+	)
+	(global_label "GND_EXT"
+		(shape input)
+		(at 142.24 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8ed1434-ef69-40c2-87b7-18810f6dad96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.6200 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(no_connect
+		(at 147.32 33.02)
+		(uuid "6701c535-cae3-4ac0-af1b-bb59ed4b27ef")
+	)
+	(wire
+		(pts
+			(xy 172.72 25.4) (xy 193.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53243c4-9222-4d82-964e-594840ccb613")
+	)
+	(wire
+		(pts
+			(xy 172.72 27.94) (xy 193.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cbefda-835f-47b1-8947-a3a0797f7a2d")
+	)
+	(wire
+		(pts
+			(xy 172.72 30.48) (xy 193.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fb294a-724d-4b3b-b3c7-5601686c12cf")
+	)
+	(wire
+		(pts
+			(xy 172.72 38.1) (xy 182.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f4be90-1a02-4a73-ad0a-2da723872601")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 182.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7aafbd3-7892-4966-9bbe-fcaffc8d3ca8")
+	)
+	(wire
+		(pts
+			(xy 182.88 33.02) (xy 193.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8973a35e-8e75-4615-91c8-a25acf26b334")
+	)
+	(wire
+		(pts
+			(xy 172.72 33.02) (xy 175.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8fba87-db27-4d8a-8e45-67f8c3adb98e")
+	)
+	(wire
+		(pts
+			(xy 175.26 33.02) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5213c7-7f42-4b66-b7c7-cebc07623889")
+	)
+	(junction
+		(at 175.26 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2739d316-d93b-407d-a5a7-2e479eb4a1c2")
+	)
+	(label "GSE_VSUP"
+		(at 179.07 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c60229a7-93ce-403e-819f-bd240cfdc84e")
+	)
+	(label "GSE_CANH"
+		(at 179.07 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25c4f441-ab49-4445-802e-7ed5612aa492")
+	)
+	(label "GSE_CANL"
+		(at 179.07 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "905e9c2f-af6a-491b-9f8f-e32e14ee4609")
+	)
+	(label "GSE_GND"
+		(at 185.42 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c4682e4-ba21-49cc-8f7e-1a2a3b6753ab")
+	)
+	(rectangle
+		(start 93.98 15.24)
+		(end 224.79 66.04)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "42ecf02a-2845-4283-8e7c-abde2a51a508")
+	)
+	(text "GSE harness (off-board: U1 and J8 are not on this PCB)"
+		(exclude_from_sim no)
+		(at 96.52 17.78 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "4a1d076b-521b-4c15-b15f-e09b3534bad1")
+	)
+	(text "U1 plugs into a 9-pin relay socket (or the ICS-102300 IP65 socket) \nand connects to J6 by a short pigtail. J6 pinout is unchanged.\nBus 2 (rocket side): CAN_ext+/- and GND_EXT come from the rocket through J2 and J6.\n  GND_EXT is the ROCKET ground (tied to GND on the inner board). Never connect it to GSE ground.\n  LR2 open: the rocket segment is already terminated on the inner board (fixed 120 Ohm).\n  Umbilical + pigtail is an unterminated stub: keep it short (<= 0.3 m at 1 Mbit/s).\nBus 1 (GSE side): LR1 shorted to L1 = 120 Ohm on. Terminate the far GSE end with 120 Ohm too.\nKL30 / KL31 (GND1): 9-30 V supply from the GSE, < 30 mA. +V_EXT (J2.1 / J6.4) is now a spare.\nPart#: ICS-104984 is the 1 MOhm variant (10k / 56k / 1M between GND1 and GND2?) - confirm with Würth."
+		(exclude_from_sim no)
+		(at 96.52 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "183ffca1-5831-4bb1-a725-c926de6e7e8d")
 	)
 	(sheet_instances
 		(path "/"
