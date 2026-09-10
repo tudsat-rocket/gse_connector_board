@@ -2569,7 +2569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08f68452-eeaf-4ae5-88f1-f0ff7e637468")
-		(property "Reference" "R24"
+		(property "Reference" "R1"
 			(at 63.246 45.466 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,6 +2645,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 64.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5aa60b1-d3ec-4242-9f12-e5d4a77af8fb")
 		)
@@ -2654,7 +2665,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "R24")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1beb2f90-0cc0-4b24-974f-64c93e92b925")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR06"
 			(at 41.91 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2733,7 +2744,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR067")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2838,6 +2849,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 41.91 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "989e6589-046b-4d94-8098-0b3154de09f0")
 		)
@@ -2869,7 +2891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "291622a4-0648-4fd1-9acb-fe3ce8a45c5f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 54.61 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2930,7 +2952,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2947,7 +2969,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "306127b7-0132-4397-a50c-72680c363884")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 90.678 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +2991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_flat"
+		(property "Footprint" "gse_inner_custom:4_pin_mag_con_flat_mv_adapt"
 			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3017,7 +3039,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3034,7 +3056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "331d649c-4ba5-4e4c-bda1-9f5ca9229a55")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR04"
 			(at 31.75 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3094,7 +3116,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR059")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3133,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3a5a3aa7-7134-4ff3-abbf-7e4ee9a32a42")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 67.31 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,7 +3155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_flat"
+		(property "Footprint" "gse_inner_custom:4_pin_mag_con_flat_mv_adapt"
 			(at 66.04 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3181,7 +3203,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3199,7 +3221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eed550a-6bc5-4333-b9de-da2691590a42")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR02"
 			(at 26.67 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3259,7 +3281,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR051")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3276,7 +3298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76d890c2-5b4e-4d05-a27e-ec4034d2ca74")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR03"
 			(at 31.75 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3337,7 +3359,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR055")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ae18f84-a50c-4fc7-bad1-6c5104dcd412")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 33.02 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3445,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3441,7 +3463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e11004a-ac5d-45f1-b667-5f68983a3dc0")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR05"
 			(at 35.56 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3502,7 +3524,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR060")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3692,7 +3714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886cd8fa-76fc-4dfb-99a4-b732b38a1446")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR09"
 			(at 58.42 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3753,7 +3775,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR066")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3852,7 +3874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7ed1206-d825-42f8-8ee5-e9ec948ea130")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 81.28 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3913,7 +3935,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3932,7 +3954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c13b9730-7642-4dbe-9d67-51770053e878")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 81.28 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3993,7 +4015,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR01")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4011,7 +4033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e999928c-e3a4-4bb1-9a7c-2fe414bed321")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR07"
 			(at 64.77 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4072,7 +4094,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR053")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca8bba1-e16a-495a-8c2e-820ffda562cd")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 20.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4152,7 +4174,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4191,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_flat"
+		(property "Footprint" "gse_inner_custom:4_pin_mag_con_flat_mv_adapt"
 			(at 36.83 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fde6361b-3249-4508-82f2-53e921e743bc")
-		(property "Reference" "JP1"
+		(property "Reference" "120Ω1"
 			(at 69.85 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4319,7 +4341,7 @@
 		(instances
 			(project "gse_connector_board"
 				(path "/df677c4e-51be-471c-a547-b22db5b9f5a1"
-					(reference "JP1")
+					(reference "120Ω1")
 					(unit 1)
 				)
 			)
