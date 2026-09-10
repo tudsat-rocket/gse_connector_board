@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,4_pin_mag_con_flat_mv_adapt,1,arming_connector,
+J2,4_pin_mag_con_flat_mv_adapt,1,gse_com_connector,
+J3,4_pin_mag_con_flat_mv_adapt,1,chg_connector,
+"J5, J7, J8",Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal,3,Conn_02x02_Top_Bottom,

@@ -3174,7 +3174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_mv_adapt"
+		(property "Footprint" "custom_parts:4_pin_mag_con_flat_mv_adapt"
 			(at 181.61 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3261,7 +3261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_mv_adapt"
+		(property "Footprint" "custom_parts:4_pin_mag_con_flat_mv_adapt"
 			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5001,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_mv_adapt"
+		(property "Footprint" "custom_parts:4_pin_mag_con_flat_mv_adapt"
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)

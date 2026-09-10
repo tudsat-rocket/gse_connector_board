@@ -2991,7 +2991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gse_inner_custom:4_pin_mag_con_flat_mv_adapt"
+		(property "Footprint" "gse_inner_custom:4_pin_mag_con_mv_adapt"
 			(at 92.71 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3155,7 +3155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gse_inner_custom:4_pin_mag_con_flat_mv_adapt"
+		(property "Footprint" "gse_inner_custom:4_pin_mag_con_mv_adapt"
 			(at 66.04 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3374,7 +3374,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ae18f84-a50c-4fc7-bad1-6c5104dcd412")
 		(property "Reference" "J1"
@@ -3619,7 +3619,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81cc918f-2753-4677-a44f-f9e131193474")
 		(property "Reference" "J4"
@@ -4213,7 +4213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "gse_inner_custom:4_pin_mag_con_flat_mv_adapt"
+		(property "Footprint" "gse_inner_custom:4_pin_mag_con_mv_adapt"
 			(at 36.83 82.55 0)
 			(hide yes)
 			(show_name no)
