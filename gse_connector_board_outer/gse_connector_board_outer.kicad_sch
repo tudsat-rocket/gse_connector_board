@@ -1126,17 +1126,6 @@
 		)
 		(uuid "89386296-5c77-4119-a2b7-4ab4f8841977")
 	)
-	(text "GSE interface (no CAN isolation; termination is switched on the inner board)\nJ8 connects straight through to the magnetic J2. GND_rocket is the common CAN ground\n(tied to GND on the inner board). Terminate the GSE end of the bus with 120 Ohm.\n+V_EXT (J8.2 -> J2.1): supplied by the GSE whenever it is connected (12 V assumed, ~5 mA).\nIt opens the rocket-side termination; without it the bus has three terminations."
-		(exclude_from_sim no)
-		(at 96.52 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "cf95db01-8b20-4fdd-abbe-f9b34c258c61")
-	)
 	(junction
 		(at 242.57 34.29)
 		(diameter 0)
@@ -1801,7 +1790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_mv_adapt"
+		(property "Footprint" "custom_parts:4_pin_mag_con_flat_mv_adapt"
 			(at 181.61 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1888,7 +1877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_mv_adapt"
+		(property "Footprint" "custom_parts:4_pin_mag_con_flat_mv_adapt"
 			(at 154.94 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3015,7 +3004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_parts:4_pin_mag_con_mv_adapt"
+		(property "Footprint" "custom_parts:4_pin_mag_con_flat_mv_adapt"
 			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)

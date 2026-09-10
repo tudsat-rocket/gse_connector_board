@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+D1,SOT-23,1,PESD2CAN,C75176
+J1,Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal,1,Conn_02x02_Top_Bottom,
+J4,Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal,1,Conn_02x03_Top_Bottom,
+R1,0603,1,120,C25079
+R2,0603,1,2.2k,C4190
+U1,SOP-4_3.8x4.1mm_P2.54mm,1,CPC1114N,C1558975
